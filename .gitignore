@@ -1,0 +1,24 @@
+# npm specific
+node_modules
+
+# test reports
+test/report
+test/coverage
+test/unit_coverage
+.nyc_output
+
+# logs
+newrelic_agent.log
+
+# IDE
+.vscode/
+.idea/
+*.orig
+
+# project files
+config/local.json
+docs/swagger.json
+sh.exe.stackdump
+
+#certificates folder
+certs/

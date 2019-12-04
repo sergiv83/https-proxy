@@ -1,0 +1,16 @@
+{
+  "name": "https-proxy",
+  "version": "0.0.1",
+  "description": "proxies all the https request to the http server",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-proxying": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sergey.ivanov",
+  "license": "ISC"
+}
