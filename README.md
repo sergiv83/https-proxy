@@ -16,3 +16,5 @@ This small server proxies all the https requests to the specified http server.
 2. Create certs directory inside project working directory and move these two certificates there.
 3. ```npm i && node app.js http://host:port```
 4. Please do not forget that our certificates are self-signed and have to be added to the list og trusted certificates for your OS/browser.
+
+Note: Doesn't work with Chrome 78.0.3904.108 and macOS Mojave, but have no problems with Safari
